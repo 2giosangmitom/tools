@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-// Struct to hold configuration options
+// Configuration structure for password generation options
 type opts struct {
 	length           int
 	includeNumbers   bool
@@ -18,7 +18,7 @@ type opts struct {
 	includeAlpha     bool
 }
 
-// Function to build and print the password based on the configuration
+// Function to build the password based on the configuration
 func build(config *opts) (string, error) {
 	// Character pools
 	var charPool strings.Builder
