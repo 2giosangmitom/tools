@@ -4,4 +4,4 @@ Welcome to my tools repository! This repository contains a collection of scripts
 
 ## Tools Overview
 
-- [p4sswdgen](./p4sswdgen): A password generator CLI tool that creates strong, random passwords based on user-defined criteria. Written in Go.
+- [p4sswdgen](./p4sswdgen): A password generator CLI tool that creates strong, random passwords based on user-defined criterias. Written in Go.
